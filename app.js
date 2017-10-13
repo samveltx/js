@@ -5,7 +5,10 @@ app.get('/', function (req, res) {
       res.send('The GET request is coming');
         console.log("Request is coming");
 })
-
+app.get('/karen', function (req, res) {
+      res.send('The GET request is coming from karen');
+        console.log("Request is coming");
+})
 app.post('/', function (req, res) {
       res.send('The POST request is coming');
         console.log("Request is coming");
