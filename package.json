@@ -1,11 +1,22 @@
 {
-    "name": "lodr-kodr",
-    "version": "1.0.0",
-    "description": "",
-    "main": "app.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "",
-    "license": "ISC"
+  "name": "lodr-kodr",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samveltx/js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/samveltx/js/issues"
+  },
+  "homepage": "https://github.com/samveltx/js#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
